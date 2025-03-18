@@ -1,0 +1,14 @@
+Acces to to the framework location and Execute below two codes in terminal in order to create two seperate archieves.
+
+iOS Archieve
+xcodebuild archive -scheme WebPaySDK -configuration Release -destination 'generic/platform=iOS' -archivePath './build/WebPaySDK.framework-iphoneos.xcarchive' SKIP_INSTALL=NO BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
+iOS Simulator Archieve
+xcodebuild archive -scheme WebPaySDK -configuration Release -destination 'generic/platform=iOS Simulator' -archivePath './build/WebPaySDK.framework-iphonesimulator.xcarchive' SKIP_INSTALL=NO BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
+
+Execute the below code in terminal to create an XCFramework using xcodebuild
+xcodebuild -create-xcframework -framework './build/WebPaySDK.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/WebPaySDK.framework' -framework './build/WebPaySDK.framework-iphoneos.xcarchive/Products/Library/Frameworks/WebPaySDK.framework' -output './WebPaySDK.xcframework'
+
+
+Info - https://medium.com/@dyaremyshyn/building-and-securing-a-swift-sdk-a-step-by-step-guide-to-creating-and-distributing-a-binary-9298473c286c
