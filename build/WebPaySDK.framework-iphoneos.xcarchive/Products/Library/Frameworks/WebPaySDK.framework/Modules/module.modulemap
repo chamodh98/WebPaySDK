@@ -1,0 +1,11 @@
+framework module WebPaySDK {
+  umbrella header "WebPaySDK.h"
+  export *
+
+  module * { export * }
+}
+
+module WebPaySDK.Swift {
+  header "WebPaySDK-Swift.h"
+  requires objc
+}
