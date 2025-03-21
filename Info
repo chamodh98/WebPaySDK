@@ -10,5 +10,6 @@ xcodebuild archive -scheme WebPaySDK -configuration Release -destination 'generi
 Execute the below code in terminal to create an XCFramework using xcodebuild
 xcodebuild -create-xcframework -framework './build/WebPaySDK.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/WebPaySDK.framework' -framework './build/WebPaySDK.framework-iphoneos.xcarchive/Products/Library/Frameworks/WebPaySDK.framework' -output './WebPaySDK.xcframework'
 
+Add this created XCFramework to -> WebPayLibrary/Sources
 
 Info - https://medium.com/@dyaremyshyn/building-and-securing-a-swift-sdk-a-step-by-step-guide-to-creating-and-distributing-a-binary-9298473c286c
