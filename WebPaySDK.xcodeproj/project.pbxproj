@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842757402D8D4948006189A6 /* PaymentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427573F2D8D4948006189A6 /* PaymentData.swift */; };
 		84455F412D89B46400283844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84455F402D89B46400283844 /* AppDelegate.swift */; };
 		84455F432D89B46400283844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84455F422D89B46400283844 /* SceneDelegate.swift */; };
 		84455F452D89B46400283844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84455F442D89B46400283844 /* ViewController.swift */; };
@@ -55,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8427573F2D8D4948006189A6 /* PaymentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentData.swift; sourceTree = "<group>"; };
 		84455F3E2D89B46400283844 /* TestSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84455F402D89B46400283844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84455F422D89B46400283844 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				84EA835C2D884E7300B1E373 /* WebPaySDK.docc */,
 				84EA83722D884F9F00B1E373 /* WebpayManager.swift */,
 				84EA839B2D886D5000B1E373 /* WebViewController.swift */,
+				8427573F2D8D4948006189A6 /* PaymentData.swift */,
 			);
 			path = WebPaySDK;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842757402D8D4948006189A6 /* PaymentData.swift in Sources */,
 				84EA835D2D884E7300B1E373 /* WebPaySDK.docc in Sources */,
 				84EA839D2D886D5000B1E373 /* WebViewController.swift in Sources */,
 				84EA83732D884F9F00B1E373 /* WebpayManager.swift in Sources */,

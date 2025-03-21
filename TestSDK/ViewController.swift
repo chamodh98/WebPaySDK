@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onTapPay(_ sender: Any) {
-        WebpayManager.webPay(from: self, with: "https://chamodh98.github.io/TestSigleWeb?param1=122&param2=675") { messageBody in
+        WebpayManager.webPay(from: self, with: "http://34.124.207.233:80/ipg/checkout/sdk/init/ios", paymentData: setPaymentData()) { messageBody in
             if let message = messageBody {
                 print("Response from the parent app which receieved from SDK: \(message)")
             }
@@ -24,5 +24,16 @@ class ViewController: UIViewController {
         }
     }
     
+    func setPaymentData() -> PaymentData {
+        let paymentData = PaymentData()
+        paymentData.merchantWebToken = "eyJhbGciOiJIUzUxMiJ9.eyJtaWQiOiIwMDAwMTg5NCJ9.u1OqIhWsZ0_ceQmdZQyWBrfiP6A5mjACzuxbitRLp1K8DwMF5ehkKEyzSpWtQXyhbqqcyOFHWS-X28zy3hfbMw"
+        paymentData.orderId = "OID123456"
+        paymentData.orderDescription = "Order Description"
+        paymentData.totalAmount = "100.00"
+        paymentData.customerName = "John Doe"
+        paymentData.customerPhone = "1234567890"
+        paymentData.customerEmail = "test@email.com"
+        return paymentData
+    }
 }
 

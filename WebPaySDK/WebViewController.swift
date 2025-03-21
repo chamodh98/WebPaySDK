@@ -13,6 +13,7 @@ class WebViewController: UIViewController {
     var webView: WKWebView!
     var webUrl = String()
     var completionHandler: ((String?) -> Void)? //optional closure - This property stores the closure passed from WebpayManager
+    var paymentData: RequestData?
     
     override func viewDidLoad() {
         self.navigationController?.isNavigationBarHidden = true
@@ -40,7 +41,23 @@ class WebViewController: UIViewController {
     
     private func loadWeb() {
         if let url = URL(string: webUrl) {
-            let request = URLRequest(url: url)
+            var request = URLRequest(url: url)
+            request.httpMethod = "POST"
+            
+            // Encode the payment data to JSON
+            do {
+                let jasonData = try JSONEncoder().encode(paymentData)
+                request.httpBody = jasonData
+                print("Payment data encoded successfully")
+                print(paymentData)
+                print(url)
+            } catch {
+                print("Error encoding the payment data")
+                return
+            }
+            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+            print(request.httpBody)
+            print(request.httpMethod)
             webView.load(request)
         }
     }
