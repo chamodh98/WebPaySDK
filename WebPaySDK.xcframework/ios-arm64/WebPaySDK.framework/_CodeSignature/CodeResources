@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/WebPaySDK-Swift.h</key>
 		<data>
-		pa4PWD5v/plbVyOto8yLPqVvL2Y=
+		0Bc7y5EUgWL3UlJ6fGUCw/SWLrs=
 		</data>
 		<key>Headers/WebPaySDK.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		nogCOtk3RMTgVArs6FGz8YH5R1k=
+		WfTCn+bJ3sYsiKj7QxsuaXWxBdg=
 		</data>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		lbv34kvTXinPxsx0aCPDD10MQSU=
+		AKCwX25XCfvi7J0pAQikXwclVb0=
 		</data>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		lbv34kvTXinPxsx0aCPDD10MQSU=
+		AKCwX25XCfvi7J0pAQikXwclVb0=
 		</data>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+jjAraNiUr+1iX2pNYd3ZGV0WOs=
+		ybBap4RxMbtoSuqvpiyn2doMOv4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jVmwCBdZX3401x8Veedo5yTBS7ia+NXoMtbIIPMQcBM=
+			5km7qjw4bljKPLyx0o3SZl5HklzmsP1GyTwtaj0z++Y=
 			</data>
 		</dict>
 		<key>Headers/WebPaySDK.h</key>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bFzXl5S5//lKGPB8t3Fkz5IwQ1lDdC2EOV/lUFGnv3E=
+			tBz+c4SjRQ1JE8Yk0Sh5vEfHzdOVKatk/3mvgJ4DKeQ=
 			</data>
 		</dict>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ov4zrzE2BMRHbb4GiVtB55afW/HJZrSTQ/FYCJnlSPU=
+			e21i8UH675Prh8f8mUQSpAX/+HyvGqYkfqgeBKla1vM=
 			</data>
 		</dict>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ov4zrzE2BMRHbb4GiVtB55afW/HJZrSTQ/FYCJnlSPU=
+			e21i8UH675Prh8f8mUQSpAX/+HyvGqYkfqgeBKla1vM=
 			</data>
 		</dict>
 		<key>Modules/WebPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mOx1BOOpODTrmlGv0uR2LV7YcCjYMKHRRk/YVorzS3Y=
+			GW14jJz2b7KpU5ZqMuk5kHOZI68cq3sD8zKnFhIPiV4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

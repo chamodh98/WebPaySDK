@@ -6,6 +6,1145 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WebPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentData",
+        "printedName": "PaymentData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "packageName",
+            "printedName": "packageName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK11PaymentDataC11packageNameSSvp",
+            "mangledName": "$s9WebPaySDK11PaymentDataC11packageNameSSvp",
+            "moduleName": "WebPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC11packageNameSSvg",
+                "mangledName": "$s9WebPaySDK11PaymentDataC11packageNameSSvg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC11packageNameSSvs",
+                "mangledName": "$s9WebPaySDK11PaymentDataC11packageNameSSvs",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC11packageNameSSvM",
+                "mangledName": "$s9WebPaySDK11PaymentDataC11packageNameSSvM",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paymentMethod",
+            "printedName": "paymentMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK11PaymentDataC13paymentMethodSSvp",
+            "mangledName": "$s9WebPaySDK11PaymentDataC13paymentMethodSSvp",
+            "moduleName": "WebPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC13paymentMethodSSvg",
+                "mangledName": "$s9WebPaySDK11PaymentDataC13paymentMethodSSvg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC13paymentMethodSSvs",
+                "mangledName": "$s9WebPaySDK11PaymentDataC13paymentMethodSSvs",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC13paymentMethodSSvM",
+                "mangledName": "$s9WebPaySDK11PaymentDataC13paymentMethodSSvM",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "merchantWebToken",
+            "printedName": "merchantWebToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK11PaymentDataC08merchantA5TokenSSvp",
+            "mangledName": "$s9WebPaySDK11PaymentDataC08merchantA5TokenSSvp",
+            "moduleName": "WebPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC08merchantA5TokenSSvg",
+                "mangledName": "$s9WebPaySDK11PaymentDataC08merchantA5TokenSSvg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC08merchantA5TokenSSvs",
+                "mangledName": "$s9WebPaySDK11PaymentDataC08merchantA5TokenSSvs",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC08merchantA5TokenSSvM",
+                "mangledName": "$s9WebPaySDK11PaymentDataC08merchantA5TokenSSvM",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "orderId",
+            "printedName": "orderId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK11PaymentDataC7orderIdSSvp",
+            "mangledName": "$s9WebPaySDK11PaymentDataC7orderIdSSvp",
+            "moduleName": "WebPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC7orderIdSSvg",
+                "mangledName": "$s9WebPaySDK11PaymentDataC7orderIdSSvg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC7orderIdSSvs",
+                "mangledName": "$s9WebPaySDK11PaymentDataC7orderIdSSvs",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC7orderIdSSvM",
+                "mangledName": "$s9WebPaySDK11PaymentDataC7orderIdSSvM",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "orderDescription",
+            "printedName": "orderDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK11PaymentDataC16orderDescriptionSSvp",
+            "mangledName": "$s9WebPaySDK11PaymentDataC16orderDescriptionSSvp",
+            "moduleName": "WebPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC16orderDescriptionSSvg",
+                "mangledName": "$s9WebPaySDK11PaymentDataC16orderDescriptionSSvg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC16orderDescriptionSSvs",
+                "mangledName": "$s9WebPaySDK11PaymentDataC16orderDescriptionSSvs",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC16orderDescriptionSSvM",
+                "mangledName": "$s9WebPaySDK11PaymentDataC16orderDescriptionSSvM",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "returnUrl",
+            "printedName": "returnUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK11PaymentDataC9returnUrlSSvp",
+            "mangledName": "$s9WebPaySDK11PaymentDataC9returnUrlSSvp",
+            "moduleName": "WebPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC9returnUrlSSvg",
+                "mangledName": "$s9WebPaySDK11PaymentDataC9returnUrlSSvg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC9returnUrlSSvs",
+                "mangledName": "$s9WebPaySDK11PaymentDataC9returnUrlSSvs",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC9returnUrlSSvM",
+                "mangledName": "$s9WebPaySDK11PaymentDataC9returnUrlSSvM",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cancelUrl",
+            "printedName": "cancelUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK11PaymentDataC9cancelUrlSSvp",
+            "mangledName": "$s9WebPaySDK11PaymentDataC9cancelUrlSSvp",
+            "moduleName": "WebPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC9cancelUrlSSvg",
+                "mangledName": "$s9WebPaySDK11PaymentDataC9cancelUrlSSvg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC9cancelUrlSSvs",
+                "mangledName": "$s9WebPaySDK11PaymentDataC9cancelUrlSSvs",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC9cancelUrlSSvM",
+                "mangledName": "$s9WebPaySDK11PaymentDataC9cancelUrlSSvM",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subMerchantReference",
+            "printedName": "subMerchantReference",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK11PaymentDataC20subMerchantReferenceSSvp",
+            "mangledName": "$s9WebPaySDK11PaymentDataC20subMerchantReferenceSSvp",
+            "moduleName": "WebPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC20subMerchantReferenceSSvg",
+                "mangledName": "$s9WebPaySDK11PaymentDataC20subMerchantReferenceSSvg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC20subMerchantReferenceSSvs",
+                "mangledName": "$s9WebPaySDK11PaymentDataC20subMerchantReferenceSSvs",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC20subMerchantReferenceSSvM",
+                "mangledName": "$s9WebPaySDK11PaymentDataC20subMerchantReferenceSSvM",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalAmount",
+            "printedName": "totalAmount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK11PaymentDataC11totalAmountSSvp",
+            "mangledName": "$s9WebPaySDK11PaymentDataC11totalAmountSSvp",
+            "moduleName": "WebPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC11totalAmountSSvg",
+                "mangledName": "$s9WebPaySDK11PaymentDataC11totalAmountSSvg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC11totalAmountSSvs",
+                "mangledName": "$s9WebPaySDK11PaymentDataC11totalAmountSSvs",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC11totalAmountSSvM",
+                "mangledName": "$s9WebPaySDK11PaymentDataC11totalAmountSSvM",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customerName",
+            "printedName": "customerName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK11PaymentDataC12customerNameSSvp",
+            "mangledName": "$s9WebPaySDK11PaymentDataC12customerNameSSvp",
+            "moduleName": "WebPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC12customerNameSSvg",
+                "mangledName": "$s9WebPaySDK11PaymentDataC12customerNameSSvg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC12customerNameSSvs",
+                "mangledName": "$s9WebPaySDK11PaymentDataC12customerNameSSvs",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC12customerNameSSvM",
+                "mangledName": "$s9WebPaySDK11PaymentDataC12customerNameSSvM",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customerPhone",
+            "printedName": "customerPhone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK11PaymentDataC13customerPhoneSSvp",
+            "mangledName": "$s9WebPaySDK11PaymentDataC13customerPhoneSSvp",
+            "moduleName": "WebPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC13customerPhoneSSvg",
+                "mangledName": "$s9WebPaySDK11PaymentDataC13customerPhoneSSvg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC13customerPhoneSSvs",
+                "mangledName": "$s9WebPaySDK11PaymentDataC13customerPhoneSSvs",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC13customerPhoneSSvM",
+                "mangledName": "$s9WebPaySDK11PaymentDataC13customerPhoneSSvM",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customerEmail",
+            "printedName": "customerEmail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WebPaySDK11PaymentDataC13customerEmailSSvp",
+            "mangledName": "$s9WebPaySDK11PaymentDataC13customerEmailSSvp",
+            "moduleName": "WebPaySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC13customerEmailSSvg",
+                "mangledName": "$s9WebPaySDK11PaymentDataC13customerEmailSSvg",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC13customerEmailSSvs",
+                "mangledName": "$s9WebPaySDK11PaymentDataC13customerEmailSSvs",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WebPaySDK11PaymentDataC13customerEmailSSvM",
+                "mangledName": "$s9WebPaySDK11PaymentDataC13customerEmailSSvM",
+                "moduleName": "WebPaySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentData",
+                "printedName": "WebPaySDK.PaymentData",
+                "usr": "c:@M@WebPaySDK@objc(cs)PaymentData"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WebPaySDK@objc(cs)PaymentData(im)init",
+            "mangledName": "$s9WebPaySDK11PaymentDataCACycfc",
+            "moduleName": "WebPaySDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WebPaySDK@objc(cs)PaymentData",
+        "mangledName": "$s9WebPaySDK11PaymentDataC",
+        "moduleName": "WebPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -46,7 +1185,7 @@
           {
             "kind": "Function",
             "name": "webPay",
-            "printedName": "webPay(from:with:completion:)",
+            "printedName": "webPay(from:with:paymentData:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -64,6 +1203,12 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentData",
+                "printedName": "WebPaySDK.PaymentData",
+                "usr": "c:@M@WebPaySDK@objc(cs)PaymentData"
               },
               {
                 "kind": "TypeFunc",
@@ -93,8 +1238,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9WebPaySDK13WebpayManagerC03webB04from4with10completionySo16UIViewControllerC_SSySSSgctFZ",
-            "mangledName": "$s9WebPaySDK13WebpayManagerC03webB04from4with10completionySo16UIViewControllerC_SSySSSgctFZ",
+            "usr": "s:9WebPaySDK13WebpayManagerC03webB04from4with11paymentData10completionySo16UIViewControllerC_SSAA07PaymentJ0CySSSgctFZ",
+            "mangledName": "$s9WebPaySDK13WebpayManagerC03webB04from4with11paymentData10completionySo16UIViewControllerC_SSAA07PaymentJ0CySSSgctFZ",
             "moduleName": "WebPaySDK",
             "static": true,
             "declAttributes": [
@@ -118,74 +1263,417 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 176,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 453,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 522,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 557,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 637,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 724,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 843,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 930,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 970,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 1011,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/PaymentData.swift",
+      "kind": "StringLiteral",
+      "offset": 1095,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 456,
+      "offset": 490,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 633,
+      "offset": 667,
       "length": 17,
       "value": "\"callbackHandler\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 982,
+      "length": 20,
+      "value": "\"Close Payment View\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 990,
+      "offset": 1302,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1084,
+      "offset": 1396,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1179,
+      "offset": 1491,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1264,
+      "offset": 1576,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1355,
+      "offset": 1659,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1780,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1873,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1967,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2057,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2118,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2133,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1849,
+      "offset": 2333,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2554,
+      "length": 35,
+      "value": "\"Payment data encoded successfully\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2697,
+      "length": 33,
+      "value": "\"Error encoding the payment data\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2798,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2838,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3051,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3357,
       "length": 17,
       "value": "\"callbackHandler\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2029,
+      "offset": 3537,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 612,
+      "offset": 700,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 966,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1076,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1183,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1281,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1390,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1485,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1591,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1710,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1812,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1917,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/extra_files\/iOS SDK Test\/WebPaySDK\/WebPaySDK\/WebpayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2024,
+      "length": 2,
+      "value": "\"\""
     }
   ]
 }

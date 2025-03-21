@@ -10,7 +10,23 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class PaymentData : ObjectiveC.NSObject {
+  public var packageName: Swift.String
+  public var paymentMethod: Swift.String
+  public var merchantWebToken: Swift.String
+  public var orderId: Swift.String
+  public var orderDescription: Swift.String
+  public var returnUrl: Swift.String
+  public var cancelUrl: Swift.String
+  public var subMerchantReference: Swift.String
+  public var totalAmount: Swift.String
+  public var customerName: Swift.String
+  public var customerPhone: Swift.String
+  public var customerEmail: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class WebpayManager {
-  public static func webPay(from parentViewController: UIKit.UIViewController, with urlString: Swift.String, completion: @escaping (Swift.String?) -> Swift.Void)
+  public static func webPay(from parentViewController: UIKit.UIViewController, with urlString: Swift.String, paymentData: WebPaySDK.PaymentData, completion: @escaping (Swift.String?) -> Swift.Void)
   @objc deinit
 }
