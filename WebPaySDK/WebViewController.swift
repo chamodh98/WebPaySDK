@@ -27,13 +27,26 @@ class WebViewController: UIViewController {
         
         view.addSubview(webView)
         
+        // Add a button to close the payment view
+        let button = UIButton(type: .system)
+        button.setTitle("Close Payment View", for: .normal)
+        button.addTarget(self, action: #selector(closeView), for: .touchUpInside)
+        view.addSubview(button)
+        
         // set layout constraints of the web view
         let layoutGuide = view.safeAreaLayoutGuide
         webView.translatesAutoresizingMaskIntoConstraints = false
         webView.leadingAnchor.constraint(equalTo: layoutGuide.leadingAnchor).isActive = true
         webView.trailingAnchor.constraint(equalTo: layoutGuide.trailingAnchor).isActive = true
         webView.topAnchor.constraint(equalTo: layoutGuide.topAnchor).isActive = true
-        webView.bottomAnchor.constraint(equalTo: layoutGuide.bottomAnchor).isActive = true
+        webView.bottomAnchor.constraint(equalTo: button.topAnchor).isActive = true
+        
+        // set layout constraints of the button
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.leadingAnchor.constraint(equalTo: layoutGuide.leadingAnchor).isActive = true
+        button.trailingAnchor.constraint(equalTo: layoutGuide.trailingAnchor).isActive = true
+        button.bottomAnchor.constraint(equalTo: layoutGuide.bottomAnchor).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
         loadWeb()
     }
@@ -60,6 +73,10 @@ class WebViewController: UIViewController {
             print(request.httpMethod)
             webView.load(request)
         }
+    }
+    
+    @objc private func closeView() {
+        self.dismiss(animated: true, completion: nil)
     }
     
     private func webViewCallBack(response: String) {
